@@ -1,4 +1,4 @@
-import environment from "@/config/environment.js";
+import environment from "@/config/environment";
 import axios from "axios";
 import { Session } from "next-auth";
 import { getSession } from "next-auth/react";
@@ -38,3 +38,5 @@ instance.interceptors.response.use(
     return Promise.reject(error);
   },
 );
+
+export default instance;

@@ -1,3 +1,3 @@
-import PageHead from "./pageHead.js";
+import PageHead from "./pageHead.tsx";
 
 export default PageHead;
