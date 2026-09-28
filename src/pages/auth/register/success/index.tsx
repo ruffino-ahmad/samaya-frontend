@@ -1,9 +1,10 @@
 import AuthLayout from "@/components/layouts/AuthLayout";
+import { RegisterSuccess } from "@/features/auth";
 
 const RegisterSuccessPage = () => {
   return (
     <AuthLayout title="Samaya | Registration Success">
-      <h1>Registration Successful</h1>
+      <RegisterSuccess />
     </AuthLayout>
   );
 };
